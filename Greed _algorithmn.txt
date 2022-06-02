@@ -1,0 +1,10 @@
+Greed.
+1. Player starts the game by typing python3 rfk in the terminal or by clicking the run on the IDE.
+2. The screen opens based on the number of fixed rows.
+3. The player types the name and the game starts.
+4. The symbols of gems, players and rocks appear.
+5. Gems (*) and rocks (o) randomly appear and fall from the top of the screen.
+6. If the player moves left or right and touches a gem they earn a point.
+7. If the player(#) moves left or right and touches a rock they lose a point.
+8. If the player touches a Gem or rock, they are removed from the falling.
+9. If the player closes the window, The game continues until the player.
