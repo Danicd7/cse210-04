@@ -14,11 +14,11 @@ Description:
 
 
 Project Structure:
-__main.py__ - calls game.start_game() from game.py file which will start the game, imports all the information in the game file which will allow the game to start. 
+__main.py__ - calls game.start_game() from game.py file which will start the game, imports all the information in the game file which will allow the game to start. The screen file using the raylib library imports the features for the screen which will display the game. 
 
 game.py - initialize by importing gem file, player, rock, screen, and color. These will create the screen with the gems and rocks appear, it will have the player # at the bottom of the screen. 
 
-
+The game uses the knowledge of inheritance to reuse the code from one class to another with the gem and rock inheriting the value and color and position from other classes especially from the class Artifact and class Actor.
 
 
 Required Software: Terminal, Any IDE 
