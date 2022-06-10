@@ -9,6 +9,10 @@ from gem import Gem
 from rock import Rock
 from color import Color
 
+# def Color():
+#     colors = [RED, VIOLET, SKYBLUE, MAGENTA, BROWN]
+#     return colors[range(0, 5)]
+
 
 def match(player, gems, rocks):
     for gem in gems:

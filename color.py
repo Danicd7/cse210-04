@@ -11,4 +11,4 @@ class Color:
 
 # def Color():
 #     colors = [RED, VIOLET, SKYBLUE, MAGENTA, BROWN]
-#     return colors[range(0, 5)]k
+#     return colors[range(0, 5)]
