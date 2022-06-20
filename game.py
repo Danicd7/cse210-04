@@ -96,7 +96,7 @@ class Game:
             self._player.show()
             end_drawing()
 
-            if is_key_down(KeyboardKey.KEY_DOWN):
+            if is_key_down(KEY_DOWN):
                 self._player.set_pos_y(self._player.get_pos_y() + 5)
                 artifact = match(self._player, self._gems, self._rocks)
                 if artifact == 'gem':
@@ -105,7 +105,7 @@ class Game:
                 elif artifact == 'rock':
                     score -= 50
                     continue
-            if is_key_down(KeyboardKey.KEY_UP):
+            if is_key_down(KEY_UP):
                 self._player.set_pos_y(self._player.get_pos_y() - 5)
                 artifact = match(self._player, self._gems, self._rocks)
                 if artifact == 'gem':
@@ -114,7 +114,7 @@ class Game:
                 elif artifact == 'rock':
                     score -= 50
                     continue
-            if is_key_down(KeyboardKey.KEY_RIGHT):
+            if is_key_down(KEY_RIGHT):
                 self._player.set_pos_x(self._player.get_pos_x() + 5)
                 artifact = match(self._player, self._gems, self._rocks)
                 if artifact == 'gem':
@@ -123,7 +123,7 @@ class Game:
                 elif artifact == 'rock':
                     score -= 50
                     continue
-            if is_key_down(KeyboardKey.KEY_LEFT):
+            if is_key_down(KEY_LEFT):
                 self._player.set_pos_x(self._player.get_pos_x() - 5)
                 artifact = match(self._player, self._gems, self._rocks)
                 if artifact == 'gem':
